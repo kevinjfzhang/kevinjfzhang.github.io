@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>linux笔记 | Web开发笔记 - PhpCoder</title>
+    <meta name="description" content="Php Web开发笔记">
+    <link rel="icon" href="/images/web/favicon.ico">
+    
+    <link rel="preload" href="/assets/css/0.styles.ca677ac2.css" as="style"><link rel="preload" href="/assets/js/app.a9e3ac8e.js" as="script"><link rel="preload" href="/assets/js/29.8ebb75d6.js" as="script"><link rel="prefetch" href="/assets/js/10.cd2b46b7.js"><link rel="prefetch" href="/assets/js/11.fdc4e378.js"><link rel="prefetch" href="/assets/js/12.19116c08.js"><link rel="prefetch" href="/assets/js/13.c9c745ca.js"><link rel="prefetch" href="/assets/js/14.45a436dd.js"><link rel="prefetch" href="/assets/js/15.74b3601f.js"><link rel="prefetch" href="/assets/js/16.e4e65350.js"><link rel="prefetch" href="/assets/js/17.5737f7dc.js"><link rel="prefetch" href="/assets/js/18.2302449a.js"><link rel="prefetch" href="/assets/js/19.11aab165.js"><link rel="prefetch" href="/assets/js/2.23702997.js"><link rel="prefetch" href="/assets/js/20.61af336b.js"><link rel="prefetch" href="/assets/js/21.180a4026.js"><link rel="prefetch" href="/assets/js/22.f5decf16.js"><link rel="prefetch" href="/assets/js/23.5ff738d0.js"><link rel="prefetch" href="/assets/js/24.4a28abd1.js"><link rel="prefetch" href="/assets/js/25.ecda4903.js"><link rel="prefetch" href="/assets/js/26.bc0e7986.js"><link rel="prefetch" href="/assets/js/27.587089fa.js"><link rel="prefetch" href="/assets/js/28.87224161.js"><link rel="prefetch" href="/assets/js/3.5ae6672f.js"><link rel="prefetch" href="/assets/js/30.3c6c22a2.js"><link rel="prefetch" href="/assets/js/31.0230630a.js"><link rel="prefetch" href="/assets/js/32.4a14ac97.js"><link rel="prefetch" href="/assets/js/33.be3d96fb.js"><link rel="prefetch" href="/assets/js/34.102271a7.js"><link rel="prefetch" href="/assets/js/35.2546e6c8.js"><link rel="prefetch" href="/assets/js/36.00d4d1fc.js"><link rel="prefetch" href="/assets/js/37.5b8747df.js"><link rel="prefetch" href="/assets/js/38.54db2eff.js"><link rel="prefetch" href="/assets/js/39.52d96165.js"><link rel="prefetch" href="/assets/js/4.87d49042.js"><link rel="prefetch" href="/assets/js/40.bf7a6df6.js"><link rel="prefetch" href="/assets/js/41.239603b1.js"><link rel="prefetch" href="/assets/js/42.fbcf632d.js"><link rel="prefetch" href="/assets/js/43.86044efd.js"><link rel="prefetch" href="/assets/js/44.ad43eeae.js"><link rel="prefetch" href="/assets/js/45.395f459a.js"><link rel="prefetch" href="/assets/js/46.9f985385.js"><link rel="prefetch" href="/assets/js/47.69e6058a.js"><link rel="prefetch" href="/assets/js/48.368e0844.js"><link rel="prefetch" href="/assets/js/49.e8bed750.js"><link rel="prefetch" href="/assets/js/5.671109d8.js"><link rel="prefetch" href="/assets/js/50.6e1cf439.js"><link rel="prefetch" href="/assets/js/51.a1c51e6a.js"><link rel="prefetch" href="/assets/js/52.34b94d63.js"><link rel="prefetch" href="/assets/js/6.42456f10.js"><link rel="prefetch" href="/assets/js/7.63a767e7.js"><link rel="prefetch" href="/assets/js/8.3870e0a0.js"><link rel="prefetch" href="/assets/js/9.fd544b3e.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.ca677ac2.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Web开发笔记 - PhpCoder</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">资源</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/resource/algorithm/" class="nav-link">算法系列</a></li><li class="dropdown-item"><!----> <a href="/resource/design_principle/" class="nav-link">设计原则</a></li><li class="dropdown-item"><!----> <a href="/resource/design_pattern/" class="nav-link">设计模式</a></li><li class="dropdown-item"><h4></h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/resource/code_snippet/" class="nav-link">代码片段</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">笔记</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4></h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/note/php/" class="nav-link">PHP</a></li><li class="dropdown-subitem"><a href="/note/laravel/" class="nav-link">Laravel</a></li><li class="dropdown-subitem"><a href="/note/symfony/" class="nav-link">Symfony</a></li><li class="dropdown-subitem"><a href="/note/composer/" class="nav-link">Composer</a></li></ul></li><li class="dropdown-item"><h4></h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/note/javascript/" class="nav-link">Javascript</a></li><li class="dropdown-subitem"><a href="/note/es6/" class="nav-link">ES6</a></li><li class="dropdown-subitem"><a href="/note/vue/" class="nav-link">Vue</a></li><li class="dropdown-subitem"><a href="/note/jquery/" class="nav-link">Jquery</a></li></ul></li><li class="dropdown-item"><h4></h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/note/css/" class="nav-link">CSS</a></li><li class="dropdown-subitem"><a href="/note/sass/" class="nav-link">Sass</a></li><li class="dropdown-subitem"><a href="/note/compass/" class="nav-link">Compass</a></li></ul></li><li class="dropdown-item"><h4></h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/note/mysql/" class="nav-link">Mysql</a></li></ul></li><li class="dropdown-item"><h4></h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/note/linux/" class="nav-link router-link-exact-active router-link-active">Linux</a></li><li class="dropdown-subitem"><a href="/note/bt/" class="nav-link">宝塔</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">工具</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4></h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/tool/sublime/" class="nav-link">Sublime</a></li><li class="dropdown-subitem"><a href="/tool/phpstorm/" class="nav-link">Phpstorm</a></li><li class="dropdown-subitem"><a href="/tool/vim/" class="nav-link">Vim</a></li></ul></li><li class="dropdown-item"><h4></h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/tool/git/" class="nav-link">Git</a></li></ul></li><li class="dropdown-item"><h4></h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/tool/markdown/" class="nav-link">Markdown</a></li><li class="dropdown-subitem"><a href="/tool/yml/" class="nav-link">Yml</a></li></ul></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">资源</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/resource/algorithm/" class="nav-link">算法系列</a></li><li class="dropdown-item"><!----> <a href="/resource/design_principle/" class="nav-link">设计原则</a></li><li class="dropdown-item"><!----> <a href="/resource/design_pattern/" class="nav-link">设计模式</a></li><li class="dropdown-item"><h4></h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/resource/code_snippet/" class="nav-link">代码片段</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">笔记</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4></h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/note/php/" class="nav-link">PHP</a></li><li class="dropdown-subitem"><a href="/note/laravel/" class="nav-link">Laravel</a></li><li class="dropdown-subitem"><a href="/note/symfony/" class="nav-link">Symfony</a></li><li class="dropdown-subitem"><a href="/note/composer/" class="nav-link">Composer</a></li></ul></li><li class="dropdown-item"><h4></h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/note/javascript/" class="nav-link">Javascript</a></li><li class="dropdown-subitem"><a href="/note/es6/" class="nav-link">ES6</a></li><li class="dropdown-subitem"><a href="/note/vue/" class="nav-link">Vue</a></li><li class="dropdown-subitem"><a href="/note/jquery/" class="nav-link">Jquery</a></li></ul></li><li class="dropdown-item"><h4></h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/note/css/" class="nav-link">CSS</a></li><li class="dropdown-subitem"><a href="/note/sass/" class="nav-link">Sass</a></li><li class="dropdown-subitem"><a href="/note/compass/" class="nav-link">Compass</a></li></ul></li><li class="dropdown-item"><h4></h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/note/mysql/" class="nav-link">Mysql</a></li></ul></li><li class="dropdown-item"><h4></h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/note/linux/" class="nav-link router-link-exact-active router-link-active">Linux</a></li><li class="dropdown-subitem"><a href="/note/bt/" class="nav-link">宝塔</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">工具</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4></h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/tool/sublime/" class="nav-link">Sublime</a></li><li class="dropdown-subitem"><a href="/tool/phpstorm/" class="nav-link">Phpstorm</a></li><li class="dropdown-subitem"><a href="/tool/vim/" class="nav-link">Vim</a></li></ul></li><li class="dropdown-item"><h4></h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/tool/git/" class="nav-link">Git</a></li></ul></li><li class="dropdown-item"><h4></h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/tool/markdown/" class="nav-link">Markdown</a></li><li class="dropdown-subitem"><a href="/tool/yml/" class="nav-link">Yml</a></li></ul></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/note/linux/" class="active sidebar-link">linux笔记</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/note/linux/#一-linux系统的目录结构" class="sidebar-link">一 Linux系统的目录结构</a></li><li class="sidebar-sub-header"><a href="/note/linux/#二-网络及相关设置" class="sidebar-link">二 网络及相关设置</a></li><li class="sidebar-sub-header"><a href="/note/linux/#三-服务及进程" class="sidebar-link">三 服务及进程</a></li><li class="sidebar-sub-header"><a href="/note/linux/#四-yum及rpm安装" class="sidebar-link">四 YUM及RPM安装</a></li><li class="sidebar-sub-header"><a href="/note/linux/#五-用户及用户组" class="sidebar-link">五  用户及用户组</a></li><li class="sidebar-sub-header"><a href="/note/linux/#六-linux文件与目录管理" class="sidebar-link">六  Linux文件与目录管理</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/note/linux/#_6-1-目录与路径" class="sidebar-link">6.1 目录与路径</a></li><li class="sidebar-sub-header"><a href="/note/linux/#_6-2-文件与目录管理" class="sidebar-link">6.2 文件与目录管理</a></li><li class="sidebar-sub-header"><a href="/note/linux/#_6-3-文件内容查阅" class="sidebar-link">6.3 文件内容查阅</a></li><li class="sidebar-sub-header"><a href="/note/linux/#_6-4-文件权限管理" class="sidebar-link">6.4 文件权限管理</a></li><li class="sidebar-sub-header"><a href="/note/linux/#_6-5-file-观察文件类型" class="sidebar-link">6.5 file 观察文件类型</a></li><li class="sidebar-sub-header"><a href="/note/linux/#_6-6-文件搜索定位" class="sidebar-link">6.6 文件搜索定位</a></li><li class="sidebar-sub-header"><a href="/note/linux/#_6-6-指令与文件的搜寻" class="sidebar-link">6.6 指令与文件的搜寻</a></li><li class="sidebar-sub-header"><a href="/note/linux/#_6-7-文件压缩解压" class="sidebar-link">6.7 文件压缩解压</a></li><li class="sidebar-sub-header"><a href="/note/linux/#_7-1-磁盘与目录的容量" class="sidebar-link">7.1 磁盘与目录的容量</a></li><li class="sidebar-sub-header"><a href="/note/linux/#_7-2-实体链接与符号链接：ln" class="sidebar-link">7.2 实体链接与符号链接：ln</a></li></ul></li><li class="sidebar-sub-header"><a href="/note/linux/#八-文件与文件系统的压缩，打包与备份" class="sidebar-link">八 文件与文件系统的压缩，打包与备份</a></li><li class="sidebar-sub-header"><a href="/note/linux/#九-shell与shell-scripts" class="sidebar-link">九 Shell与Shell scripts</a></li><li class="sidebar-sub-header"><a href="/note/linux/#十-bash" class="sidebar-link">十 Bash</a></li><li class="sidebar-sub-header"><a href="/note/linux/#十一-正则与文件格式化处理" class="sidebar-link">十一 正则与文件格式化处理</a></li><li class="sidebar-sub-header"><a href="/note/linux/#十二-shell-scripts" class="sidebar-link">十二 Shell Scripts</a></li><li class="sidebar-sub-header"><a href="/note/linux/#十三-linux使用者管理" class="sidebar-link">十三 Linux使用者管理</a></li><li class="sidebar-sub-header"><a href="/note/linux/#十四-磁盘配额-quota-与进阶文件系统管理" class="sidebar-link">十四 磁盘配额(Quota)与进阶文件系统管理</a></li><li class="sidebar-sub-header"><a href="/note/linux/#十五-例行性工作调度" class="sidebar-link">十五 例行性工作调度</a></li><li class="sidebar-sub-header"><a href="/note/linux/#十六-程序管理与selinux初探" class="sidebar-link">十六 程序管理与SELinux初探</a></li><li class="sidebar-sub-header"><a href="/note/linux/#十七-linux系统管理员" class="sidebar-link">十七 Linux系统管理员</a></li><li class="sidebar-sub-header"><a href="/note/linux/#二一-软件安装：源代码与tarball" class="sidebar-link">二一 软件安装：源代码与Tarball</a></li><li class="sidebar-sub-header"><a href="/note/linux/#二二-软件安装-rpm-srpm与yum" class="sidebar-link">二二 软件安装 RPM,SRPM与YUM</a></li></ul></li><li><a href="/note/linux/php_server.html" class="sidebar-link">虚拟机linux安装php高性能服务器</a></li></ul> </div> <div class="page"> <div class="content"><h2 id="一-linux系统的目录结构"><a href="#一-linux系统的目录结构" aria-hidden="true" class="header-anchor">#</a> 一 Linux系统的目录结构</h2> <div class="language- extra-class"><pre class="language-text"><code>/ 根目录
+    /boot: 启动目录，启动信息
+    /bin: 程序的启动文件，程序的命令
+    /sbin: 超级用户存放一些应用程序的地方
+    /dev: 设备目录
+    /etc: Editable Text Configuration，可编辑文本配置，放一些配置信息
+    /home: 用户家目录
+    /root: root用户单独的家目录
+    /lib: 存放一些库
+    /lib64: 给64为操作系统提供的，存放一些库
+    /lost+found: 这个目录平时是空的，系统非正常关机留下“无家可归”的文件就在这里
+    /media: 自动识别一些设备的时候，会挂载到这个地方，必须：CD/DVD
+    /mnt: 安装临时文件系统的安装点，让用户临时挂载其他的文件系统
+    /proc: 虚拟文件系统目录，是系统内存的映射。用来获取系统信息
+    /tmp: 用于存放各种临时文件，是公用的临时文件存储点
+    /urs: Unix System Resource, Unix系统资源，这个目录很重要，用来放一些应用程序
+    /opt: 这里主要放一些可选的程序，譬如安装一些冉家的最新beta版本，用完直接删除，软件安装在此目录，一个软件只有一个目录，可以一次性完全删除，而/usr/local则不能
+    /sys: 是sysfs文件系统的挂载点，sysfs是一种虚拟的基于内存的文件系统，它的作用除了与proc相同的具有查看和设定内核参数功能外，统一设备模型
+    /selinux: Security-Enhanced Linux的缩写，用来保证系统的安全
+        getenforce: 获取状态
+        setenforce: 设置状态
+        永久关闭:
+            打开: /etc/selinux/config
+            修改: /SELINUX-disabled
+    /srv: 系统启动服务时可以访问的数据库目录
+    /var: 用于存放运行时需要改变数据的文件，比如各种服务的日志文件
+</code></pre></div><h2 id="二-网络及相关设置"><a href="#二-网络及相关设置" aria-hidden="true" class="header-anchor">#</a> 二 网络及相关设置</h2> <ol><li>ping
+<ul><li>作用: 通常用于检测网络设备的连通性</li> <li>格式: ping ip/域名</li> <li>选项: -c，指定方式测试数据包的次数</li></ul></li> <li>ifconfig
+<ul><li>作用: 查看或设置网卡信息</li> <li>实例:<div class="language- extra-class"><pre class="language-text"><code>ifconfig: 查看活动网卡信息
+ifconfig eth0 down: 关闭网卡，等价于ifdown eth0
+ifconfig eth0 up: 开启网卡，等价于ifup eth0
+</code></pre></div></li> <li>服务:<div class="language- extra-class"><pre class="language-text"><code>/etc/init.d/network start | stop | restart  开启 | 关闭 | 重启 网络服务
+service network start | stop | restart 开启 | 关闭 | 重启 网络服务
+</code></pre></div></li></ul></li></ol> <ul><li>网卡配置文件: <code>/etc/sysconfig/network-scripts/ifcfg-eth0</code><div class="language- extra-class"><pre class="language-text"><code>TYPE=Ethernet
+PROXY_METHOD=none
+BROWSER_ONLY=no
+BOOTPROTO=dhcp               # 动态分批ip地址
+DEFROUTE=yes
+IPV4_FAILURE_FATAL=no
+IPV6INIT=yes
+IPV6_AUTOCONF=yes
+IPV6_DEFROUTE=yes
+IPV6_FAILURE_FATAL=no
+IPV6_ADDR_GEN_MODE=stable-privacy
+NAME=enp0s3
+UUID=eee027e6-e6ce-4aa2-a661-263471392ccb
+DEVICE=enp0s3
+ONBOOT=yes
+
+</code></pre></div></li> <li>添加域名服务器(DNS)地址: /etc/resolv.conf
+<ul><li>DNS1 = 8.8.8.8  #域名解析服务 google dns服务器</li> <li>DNS2 = 114.114.114.114</li></ul></li> <li>添加本地域名解析服务: /etc/hosts
+<ul><li>127.0.0.1 www.hello.com</li></ul></li></ul> <h2 id="三-服务及进程"><a href="#三-服务及进程" aria-hidden="true" class="header-anchor">#</a> 三 服务及进程</h2> <ol><li>vmstat:
+<ul><li>结果:<div class="language- extra-class"><pre class="language-text"><code>procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
+    r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+    2  0      0 1578008   2108 160164    0    0    87    14  218  281  3  6 92  0  0
+</code></pre></div></li> <li>说明:
+<ul><li>procs: 进程<div class="language- extra-class"><pre class="language-text"><code>r 表示运行队列(就是说多数个进程真的分配到CPU)
+b 表示阻塞的进程数
+</code></pre></div></li> <li>memory: 内存<div class="language- extra-class"><pre class="language-text"><code>swpd 虚拟内存已使用的大小，如果大于0，表示你的机器物理内存不足了
+free 空闲的物理内存的大小
+buff 用来存储，目录里面有什么内容，权限等的缓存
+cache 直接用来记忆我们打开的文件，给文件做缓存
+</code></pre></div></li> <li>swap: 交换<div class="language- extra-class"><pre class="language-text"><code>si 每秒从磁盘读入虚拟内存的大小
+so 每秒虚拟内存写入磁盘的大小
+</code></pre></div></li> <li>io: 块设备<div class="language- extra-class"><pre class="language-text"><code>bi 每块设备每秒接收的块数量
+bo 块设备每秒发送的块数量
+</code></pre></div></li> <li>system: 系统<div class="language- extra-class"><pre class="language-text"><code>in 每秒CPU的中断次数，包括时间中断
+cs 每秒上下文切换次数
+</code></pre></div></li> <li>cpu: 中央处理器<div class="language- extra-class"><pre class="language-text"><code>us 用户CPU时间
+sy 系统CPU时间
+id 空闲CPU时间，一般来说，id+us+sy = 100
+wa 等待IO的CPU时间
+st 虚拟机占用的时间百分百，一般不用关心
+</code></pre></div></li></ul></li></ul></li> <li>w
+<ul><li>作用: what的简写，当前系统在干什么</li> <li>结果:<div class="language- extra-class"><pre class="language-text"><code>20:51:23 up 43 min,  3 users,  load average: 0.16, 0.22, 0.20
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+kevin    tty1                      09:08   22:43   0.02s  0.02s -bash
+root     pts/0    192.168.10.1     09:09    3.00s  0.04s  0.00s w
+root     pts/1    192.168.10.1     09:09   41:53  10.34s 10.34s top
+</code></pre></div></li> <li>说明:<div class="language- extra-class"><pre class="language-text"><code>第一行: 系统当前时间  开机持续时间，登录用户个数，平均负载(分钟数)
+其他行: 用户 | 终端 | 来源 | 登录时间 | 空闲时间 | 使用时间 | 当前进程时间 | 正在做
+</code></pre></div></li></ul></li> <li>top
+<ul><li>使用:<div class="language- extra-class"><pre class="language-text"><code>w 的详细显示，每3秒刷新一次
+shift + m可以按照所占内存排序
+q 退出监测
+</code></pre></div></li> <li>结果:<div class="language- extra-class"><pre class="language-text"><code>top - 10:01:59 up 53 min,  3 users,  load average: 0.01, 0.15, 0.20
+Tasks: 112 total,   3 running, 109 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.4 us,  3.7 sy,  0.0 ni, 93.2 id,  0.0 wa,  0.0 hi,  0.7 si,  0.0 st
+KiB Mem :  1882300 total,  1570888 free,   143056 used,   168356 buff/cache
+KiB Swap:  1048572 total,  1048572 free,        0 used.  1565776 avail Mem 
+
+PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND                               
+</code></pre></div></li> <li>说明:<div class="language- extra-class"><pre class="language-text"><code>第一行 功能同w
+第二行 任务信息
+第三行 CPU信息
+第四行 内存信息
+第五行 交换分区
+其他行 
+    PID     进程号
+    USER    用户
+    PR      优先级
+    NI      NICE
+    VIRT    虚拟内存总量
+    PES     虚拟内存中，未被交换的物流内存
+    SHR     共享内存大小
+    S       进程状态
+    CPU     CPU占用百分百
+    MEM     内存占用百分百
+    TIME+   CPU使用时间
+    COMMAND 进程名 / 命令
+</code></pre></div></li></ul></li> <li>free
+<ul><li>作用: 查看内存</li> <li>选项: -h人性化显示</li></ul></li> <li>ps
+<ul><li>作用: 查看进程</li> <li>选项:<div class="language- extra-class"><pre class="language-text"><code>a 显示控制终端的所有进程
+u 显示用户信息
+x 显示没有控制终端的进程
+</code></pre></div></li> <li>实例: <code>px aux</code></li></ul></li> <li>kill
+<ul><li>作用: 杀死一个进程</li> <li>选项: -9, 强制结束</li> <li>实例: kill -9 PID</li></ul></li></ol> <h2 id="四-yum及rpm安装"><a href="#四-yum及rpm安装" aria-hidden="true" class="header-anchor">#</a> 四 YUM及RPM安装</h2> <ol><li>yum安装软件
+<ul><li>基本说明
+<ul><li>yum相当于windows上面的360的软件中心，appstore，安卓的应用商店</li> <li>yum是redhat系列发行版的软件安装命令，debian系列用的是apt-get</li> <li>yum安装软件的来源需要存在一个地方，这个地方叫软件仓库，又叫yum源</li> <li>yum源的配置文件在<code>/etc/yum.repos.d/</code>这个目录下面</li></ul></li> <li>更换yum源
+<ul><li>进入目录 <code>cd /etc/yum.repos.d</code></li> <li>备份文件 <code>mv Centos-Base.repo CentOS-Base.repo.bak</code></li> <li>下载文件 <code>curl -O http://mirros.163.com/.help/CentOS6-Base-163.repo</code></li> <li>修改名称 <code>mv CentOS6-Base-163.repo CentOS-Base.repo</code></li> <li>清除缓存 <code>yum clean all</code></li> <li>生成缓存 <code>yum makecache</code></li></ul></li> <li>基本格式 <code>yum &lt;操作&gt; [选项]</code></li> <li>常用操作<div class="language- extra-class"><pre class="language-text"><code>清空所有缓存        clean all
+重新生成包信息缓存  makecache
+安装指定软件        install
+安装一组软件        groupinstall
+更新指定软件        update
+卸载指定软件        remove
+搜索指定软件        search
+显示所有软件        list
+</code></pre></div></li> <li>常用选项<div class="language- extra-class"><pre class="language-text"><code>默认确定操作    -y
+只下载不安装    --downloadonly
+指定下载目录    --downloaddir
+</code></pre></div></li></ul></li> <li>rpm安装软件
+<ul><li>说明:
+<ul><li>rpm以前是Redhat Package Manager的缩写,现在是RPM Package Manager的递归缩写</li> <li>使用此方式安装的软件大多有依赖关系问题，通常一个软件需要依赖几个包</li></ul></li> <li>格式: rpm [选项] 包名</li> <li>实例: 安装vim
+<ul><li>下载vim<div class="language- extra-class"><pre class="language-text"><code>yum install vim -y --downloadonly --downloaddir=.
+</code></pre></div></li> <li>安装vim<div class="language- extra-class"><pre class="language-text"><code>rpm -ivh vim-filesystem-7.4.629-5.el6.x86_64.rpm
+rpm -ivh vim-common-7.4.629-5.el6.x86_64.rpm
+rpm -ivh vim-enhanced-7.4.629-5.el6.x86_64.rpm
+</code></pre></div></li></ul></li></ul></li> <li>源码安装软件
+<ul><li>配置: configure</li> <li>编译: make</li> <li>安装: make install</li> <li>实例演示，源码安装Apache
+<ul><li><p>下载C编译器，用来编译C语言编写的源代码</p> <div class="language- extra-class"><pre class="language-text"><code>安装gcc:        yum install -y gcc
+查看gcc版本:    gcc -v
+</code></pre></div></li> <li><p>下载Apache源码</p> <div class="language- extra-class"><pre class="language-text"><code>curl -O http://mirrors.tuna.tsinghua.edu.cn/apache//httpd/httpd-2.4.39.tar.gz
+</code></pre></div></li> <li><p>解压下载的压缩包</p> <div class="language- extra-class"><pre class="language-text"><code>tar -zxvf httpd-2.4.39.tar.gz
+</code></pre></div></li> <li><p>进入解压后的文件夹</p> <div class="language- extra-class"><pre class="language-text"><code>cd httpd-2.4.39
+</code></pre></div></li> <li><p>编译前的配置: <code>./configure --prefix=/usr/local/apache2 --with-apr=/usr/local/apr/bin/apr-1-config --with-apr-util=/usr/local/apr-util/bin/apu-1-config</code></p> <ul><li>配置选项
+<ul><li>-h/--help     查看帮助</li> <li>--prefix      指定安装目录</li></ul></li></ul></li> <li><p>编译源代码 <code>make</code></p> <ul><li>错误一<div class="language- extra-class"><pre class="language-text"><code>collect2: error: ld returned 1 exit status
+make[2]: *** [htpasswd] Error 1
+make[2]: Leaving directory `/root/httpd-2.4.39/support'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/root/httpd-2.4.39/support'
+make: *** [all-recursive] Error 1
+</code></pre></div><ul><li>错误一处理方法
+<blockquote><p>分别将解压的apr和apr-util复制到 /root/httpd-2.4.39/srclib/apr和/root/httpd-2.4.39/srclib/apr-util中</p></blockquote></li></ul></li> <li>编译失败后，再次编译之前需要运行
+<ul><li><code>make clean</code> 清除上次make命令所产生的object文件（后缀为“.o”的文件）及可执行文件</li> <li><code>ldconfig</code> 该命令通常在系统启动时运行，确保动态链接库为系统所共享。当用户安装了一个新的动态链接库时，则需手工运行该命令</li></ul></li></ul></li> <li><p>安装 <code>make install</code></p></li> <li><p>控制Apache软件</p> <ul><li><p>控制命令 PREFIX/bin/apachectl</p></li> <li><p>命令的位置<code>/usr/local/apache2/bin/apachectl</code></p></li> <li><p>控制操作 start | stop | restart  启动 | 关闭 | 重启</p></li> <li><p>启动apache错误</p> <div class="language- extra-class"><pre class="language-text"><code>AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using fe80::a475:8313:82cf:dd03%enp0s3. Set the 'ServerName' directive globally to suppress this message
+</code></pre></div><p>处理方法</p> <div class="language- extra-class"><pre class="language-text"><code>打开apache配置文件，开启并更改配置项ServerName
+</code></pre></div></li></ul></li> <li><p>配置文件</p></li> <li><p>依赖</p> <div class="language- extra-class"><pre class="language-text"><code>apr
+apr-util
+pcre
+pcre-devel
+</code></pre></div></li></ul></li></ul></li></ol> <h2 id="五-用户及用户组"><a href="#五-用户及用户组" aria-hidden="true" class="header-anchor">#</a> 五  用户及用户组</h2> <ol><li>whoami
+<ul><li>说明: 查看当前登录的用户</li> <li>格式: whoami</li></ul></li> <li>/etc/passwd
+<ul><li>说明: 该文件存放了系统中所有的用户，每一行的每一列如下<div class="language- extra-class"><pre class="language-text"><code>用户名:密码:描述:用户ID/UID:组ID/GID:用户家目录:shell
+</code></pre></div></li></ul></li> <li>useradd
+<ul><li>说明: 添加(创建)用户</li> <li>格式: useradd 用户名</li> <li>选项:
+<ul><li>-d 指定用户家目录</li> <li>-u 指定用户id，必须大于500(小于500都已经被系统占用)</li> <li>-s 指定用户执行的shell，若用户已经创建可以使用一些的方式禁止登陆
+chsh 用户名 -s /sbin/nologin</li></ul></li></ul></li> <li>userdel
+<ul><li>作用: 删除指定用户</li> <li>格式: userdel 用户名</li> <li>说明: 彻底删除用户还需删除'/home/用户名'目录和'/var/mail/用户名'目录</li></ul></li> <li>passwd
+<ul><li>作用: 设置用户密码</li> <li>格式: passwd [用户名]</li> <li>说明:
+<ul><li>修改指定用户的密码，若不指定则修改当前登录的用户密码</li> <li>查看所有用户的密码/etc/shadow</li></ul></li></ul></li> <li>su
+<ul><li>作用: 切换用户</li> <li>格式: su [用户]</li> <li>说明: 切换到指定用户，若不指定则切换到root用户</li></ul></li> <li>sudo
+<ul><li>说明:
+<ul><li>若只想简单的只想一个超级用户的命令，不想切换用户</li> <li>格式是在原来的命令前面加上sudo即可</li></ul></li></ul></li> <li>特殊标识
+<ul><li># 超级用户</li> <li>$ 普通用户</li> <li>~ 用户家目录</li></ul></li> <li>/etc/group
+说明: 查看系统中所有的组</li> <li>groupadd
+<ul><li>作用: 添加用户组</li> <li>格式: groupadd 组名</li></ul></li> <li>groupdel
+<ul><li>作用: 删除用户组</li> <li>格式: groupdel 组名</li></ul></li> <li>gpasswd
+<ul><li>作用: 向用户组添加或删除用户</li> <li>格式: gpasswd [选项] 用户名 组名</li> <li>选项:
+<ul><li>-a 将指定的用户加入指定组</li> <li>-d 将指定用户从指定组删除</li></ul></li></ul></li> <li>chgrp
+<ul><li>作用: 设置文件所属的组</li> <li>格式: chgrp 组名 文件名</li> <li>说明: 修改文件所属的组</li></ul></li> <li>chown
+<ul><li>作用: 设置文件的所有者</li> <li>格式: chown 用户[:组名] 文件名</li> <li>说明:
+<ul><li>修改文件的所有者[及组名]</li> <li>修改用户及组的时候，可以使用UID或GID</li> <li>加上-R参数可以递归修改子目录的用户及组</li></ul></li></ul></li></ol> <h2 id="六-linux文件与目录管理"><a href="#六-linux文件与目录管理" aria-hidden="true" class="header-anchor">#</a> 六  Linux文件与目录管理</h2> <h3 id="_6-1-目录与路径"><a href="#_6-1-目录与路径" aria-hidden="true" class="header-anchor">#</a> 6.1 目录与路径</h3> <p>. 此层目录</p> <p>.. 上层目录</p> <p>- 前一个工作目录</p> <p>~ 当前用户所在的主文件夹</p> <p>~account 表示account这个用户的主文件夹</p> <p>cd 变换目录( change directory )</p> <p>pwd 显示当前目录( print working directory )</p> <p>mkdir 创建一个新的目录( make directory )</p> <p>rmdir 删除一个空目录( remove empty directories )</p> <p>$PATH 环境变量</p> <h3 id="_6-2-文件与目录管理"><a href="#_6-2-文件与目录管理" aria-hidden="true" class="header-anchor">#</a> 6.2 文件与目录管理</h3> <p>cp 复制文件或目录( copy )</p> <p>rm 移动文件或目录( remove files or directories )</p> <p>mv 移动文件与目录，或更名( move or rename files )</p> <p>basename 取得最后的文件名( strip directory and suffix from filenames )</p> <p>dirname 取得目录名( strip last component from file name )</p> <h3 id="_6-3-文件内容查阅"><a href="#_6-3-文件内容查阅" aria-hidden="true" class="header-anchor">#</a> 6.3 文件内容查阅</h3> <ol><li><p>文件内容查阅常用命令的英文缩写</p> <div class="language- extra-class"><pre class="language-text"><code>cat 由第一行开始显示文件内容( concatenate files and print on the standard output )
+
+tac 由最后一行开始显示文件内容( concatenate and print files in reverse )
+
+nl 显示的时候输出行号( number lines of files )
+
+more 一页一页的显示文件内容( file perusal filter for crt viewing )
+
+less 与more类似，可以向前翻页( opposite of more )
+
+head 只看头几行( output the first part of files [ 默认前10行 ] )
+
+tail 只看后几行( output the last part of files )
+
+od 以二进制方式读取文件( dump files in cotal and other formats )
+
+touch 修改文件时间或创建文件( change file timestamps )
+</code></pre></div></li> <li><p>文件内容查看的使用说明</p> <div class="language- extra-class"><pre class="language-text"><code>cat: 一次性查看文件所有内容
+        cat filename
+tac: 一次性倒叙查看文件所有内容
+	tac filename
+head: 
+	作用: 显示文件开头的若干行内容
+	格式: tail -n file n为要显示的行数
+tail:
+	作用: 显示文件结尾的若干行内容
+	格式: tail -n file n为要显示的行数
+more: 
+    作用: 分页显示其它命令执行的结果
+    格式: 其他命令  | more, 如：`cat file | more`
+    说明:
+        - 当内容显示一屏时停止
+        - 空格向下翻页(只能向下)
+        - 回车键向下显示一行
+        - q键退出(结束查看)
+less:
+    作用: 分页显示其他命令执行结果
+    格式: 其他命令 | less,如: `cat file | less`
+    说明: 
+        与more命令功能相同，多了上下按键上下翻一行
+        more和less的前面可以是很多查询搜索等命令，如: ls、find
+</code></pre></div></li> <li><p>文件整体操作</p> <div class="language- extra-class"><pre class="language-text"><code>touch:
+    作用: 创建普通文件
+    格式: touch file1 [file2]
+cp:
+    作用: 拷贝文件
+    格式: cp 源文件 目标文件
+rm: 
+    作用: 删除文件
+    格式: rm 文件
+mv: 
+    作用: 移动文件
+    格式: mv 源文件 目标文件
+mkdir:
+    作用: 创建目录文件
+    格式: mkdir dir1 [dir2]
+    说明:
+        删除文件时会有提示，若不想提示可以添加参数'-f'
+        删除或拷贝目录时需要添加参数'-r'
+ln:
+    作用: 创建链接文件
+    格式: ln [-s] 源文件 目标文件
+    硬链接: 不加'-s'选项时，简单理解为一个文件有多个名字
+        1. 不占用实际空间
+        2. 不允许给目录创建
+        3. 只能跨文件系统
+    软链接: (也叫特征链接)，添加'-s'选项时，简单理解为一个文件的内容是另一个文件的路径
+        1. 类似于windows的快捷方式
+        2. 可以对目录创建
+        3. 可以跨文件系统
+</code></pre></div></li></ol> <h3 id="_6-4-文件权限管理"><a href="#_6-4-文件权限管理" aria-hidden="true" class="header-anchor">#</a> 6.4 文件权限管理</h3> <ol><li><p>chmod</p> <ul><li>作用: 修改文件的权限</li> <li>说明: ls -l中的第一列就是权限相关的信息，下面对其中的11个字符j进行说明
+<ul><li>1 文件类型(b/c/d/l/s/p/-)</li> <li>2/3/4 文件所有者的读(r)/写(r)/执行(x)权限，-表示不具备该权限</li> <li>5/6/7 文件所有者所属组的读写执行权限</li> <li>8/9/10 其他用户的读写执行权限</li> <li>11 .表示启用了selinux，空表示没有开启selinux</li></ul></li> <li>参数:
+<ul><li>r: 可读</li> <li>w: 可写</li> <li>x: 可执行</li> <li>+: 添加权限</li> <li>-: 去掉权限</li> <li>=: 设置权限</li> <li>u: 用户</li> <li>g: 组</li> <li>o: 其他</li></ul></li> <li>数值表示:
+Linux中的权限以一组数据来表示，所有者/组/其他的权限分别以3位二进制表示，然后再将起写成8进制OK了，如: 755=&gt; 111 101 101，结果就是: 所有者拥有读/写/执行权限，同组拥有读/执行权限，其他拥有读/执行权限</li> <li>实例:<div class="language- extra-class"><pre class="language-text"><code>chmod +x file   给文件添加可执行权限
+chmod -w file   给文件去掉可写权限
+chmod u+x file  给文件的所有者添加可执行权限
+chmod g-w file  给文件的同组去掉可写权限
+chmod u=rwx,g=rx,o=rx file  所有者读写执行，同组读写，其他读写
+chmod 0755 file 功能同上
+</code></pre></div></li></ul></li> <li><p>umask 文件默认权限( display or set file mode mask )</p> <ul><li>作用: 查看或设置umask的值，umask用来确定创建文件的默认权限</li> <li>格式: umask [value]</li> <li>说明:
+<ul><li>若后面没有跟值表示查看默认权限，后面有跟值表示设置</li> <li>创建的普通文件默认没有执行权限</li></ul></li> <li>实例:<div class="language- extra-class"><pre class="language-text"><code>umask为0022          000 010 010
+创建的目录文件权限      rwx r-x r-x
+创建的普通文件权限      rw- r-- r--
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>umask -S ( Symbolic ) 显示文件的默认权限 u=rwx,g=rx,o=rx
+</code></pre></div></li> <li>配置:
+<ul><li>所有用户 <code>/etc/profile</code></li> <li>单个用户 '~/.profile' 或者 <code>./.bash_profile</code></li></ul></li></ul></li> <li><p>lsattr</p> <ul><li>作用: 查看使用chattr设置的文件属性隐藏属性 ( list file attributes on a Linux second extended file system )</li> <li>格式: lsattr</li></ul></li> <li><p>chattr</p> <ul><li>作用: 修改文件的属性，可以提高系统的稳定性 ( change file attributes on a Linux file system )</li> <li>格式: chattr [+-=] [选项] 文件</li> <li>选项与参数:<div class="language- extra-class"><pre class="language-text"><code>选项: 
+    + 表示添加
+    - 表示去掉
+    = 表示设置为,
+参数:
+    A 设置了A的属性后，若你有存取此文件（或目录）时，他的存取时间atime将不会被修改
+    S 一般文件是非同步写入磁盘的（原理参考sync命令的说明），如果加上S这个参数时，当你进行任何文件的修改，该更改会“同步”写入磁盘中
+    a 当设置a这个属性后，这个文件将只能新增数据，而不能删除也不能修改数据，只有root用户才有权限设置此属性
+    c 这个属性设置后，将会自动将此文件“压缩”，读取此文件时将会自动解压缩，但是在存储的时候，会先压缩再进行存储
+    d 当dump程序被执行时，设置d属性将可以使该文件（目录）不会被dump备份
+    i 表示忽略，他可以让一个文件不被删除、改名、设置链接也无法写入新数据或新增数据，只有root用户才有权限设置此属性
+    s 当文件设置了s属性，如果这个文件被删除，他将被完全的移除这个磁盘空间，如果误删了就无法找回
+    u 与s相反，当使用u属性时，如果该文件被删除了，则数据内容其实还存在磁盘中，可以使用来救援该文件
+注意: 
+    1 属性设置常用的是设置a和i，而且很多属性值需要root用户才能设置
+    2 xfs 文件系统仅支持 AadiS
+</code></pre></div></li></ul></li></ol> <p>文件特殊权限 SUID, SGID, SBIT</p> <blockquote><p>Set UID 的限制与功能</p> <p>[root@study ~]# ls -ld /tmp ; ls -l /usr/bin/passwd</p> <p>drwxrwxrwt. 14 root root 4096 Jun 16 01:27 /tmp</p> <p>-rwsr-xr-x. 1 root root 27832 Jun 10  2014 /usr/bin/passwd</p></blockquote> <ul><li>SUID权限仅仅对二进制程序( binary program )有效</li> <li>执行者对该程序具有x的可执行权限</li> <li>本权限仅在执行该程序的过程中有效( run-time )</li> <li>执行者将具有该程序拥有者权限( owner )的权限</li></ul> <blockquote><p>Set GID 针对文件的功能</p></blockquote> <ul><li>SGID对二进制程序有用</li> <li>程序执行者对于该程序需要具备x权限</li> <li>执行者在执行的过程中将会获得该程序群组的支持</li></ul> <blockquote><p>Set GID 针对目录的功能</p></blockquote> <ul><li>使用者对于此目录需要同时有r与x权限</li> <li>使用者在此目录下的有效群组( effective group )将会变成该目录的群组</li> <li>用途：若使用者在此目录下具有w权限( 可新建文件 )， 则使用者所创建的新文件，该新文件的群组与此目录的群组相同</li></ul> <blockquote><p>Sticky Bit 只针对目录有效</p></blockquote> <ul><li>使用者对于此目录有w，x权限时</li> <li>当使用者在该目录下创建文件或目录时，仅有自己与root才有权利删除该文件</li> <li>换句话说：当甲这个使用者于 A 目录是具有群组或其他人的身份，并且拥有该目录 w 的权限， 这表示“甲使用者对该目录内任何人创建的目录或文件均可进行 &quot;删除/更名/搬移&quot; 等动作。” 不过， 如果将 A 目录加上了 SBIT 的权限项目时， 则甲只能够针对自己创建的文件或目录进行删除/更名/移动等动作，而无法删除他人的文件。</li></ul> <p>SUID, SGID, SBIT权限设置</p> <ul><li>4 为SUID</li> <li>2 为SGID</li> <li>1 为SBIT</li></ul> <h3 id="_6-5-file-观察文件类型"><a href="#_6-5-file-观察文件类型" aria-hidden="true" class="header-anchor">#</a> 6.5 file 观察文件类型</h3> <p>命令：<code>file &lt;文件名&gt;</code></p> <p>文件类型说明:</p> <div class="language- extra-class"><pre class="language-text"><code>    -: 普通文件
+    d: 目录文件
+    b: 块设备
+    c: 字符设备
+    l: 链接
+    s: 套接字    
+    p: 管道
+</code></pre></div><h3 id="_6-6-文件搜索定位"><a href="#_6-6-文件搜索定位" aria-hidden="true" class="header-anchor">#</a> 6.6 文件搜索定位</h3> <ul><li>grep
+<ul><li>作用: General Regular Expression Parser，通用规则正则表达式分析程序，是一种强调的文本搜索工具，它能使用正则表达式搜索文本，并把匹配的行打印出来。</li> <li>格式: grep [选项] pattern [文件名]</li> <li>选项:
+<ul><li>-i 字母不区分大小写</li> <li>-n 显示行号</li></ul></li> <li>说明:
+<ul><li>pattern为所要匹配的正则表达式字符串</li> <li>要用好grep，其实就是需要写好正则表达式</li></ul></li> <li>实例:
+<ul><li><code>grep ftp /etc/passwd</code> 在<code>/etc/passwd</code>文件下查找包含'ftp'字符的行</li> <li><code>grep 'test' d*</code> 显示所有以d开头的文件中包含'test'的行</li> <li><code>ls /bin | grep '^m'</code> 通过管道过滤 <code>ls /bin</code>输出的内容，只显示以m开头的行</li> <li><code>grep -i 'hello world' menu.h main.c</code> 显示在<code>menu.h</code>和<code>main.c</code>文件中匹配<code>hello world</code>的行，忽略大小写</li></ul></li></ul></li> <li>find
+<ul><li>作用: 最常见和最强大的查找命令，可以用它找到任何想找的文件</li> <li>格式: find [目录] [条件] [动作]
+<ul><li>目录: 所要搜索的目录及其所有子目录。默认为当前目录</li> <li>添加: 所要搜索的文件的特征</li> <li>动作: 对搜索结果进行特征的处理</li></ul></li> <li>选项:
+<ul><li>name 指定文件名，可以通过*模糊匹配</li> <li>type 指定文件类型(b/c/d/p/l/f)</li> <li>size 指定文件大小，单位可以为k/m/g，+表示大于，-表示小于</li> <li>user 指定用户</li> <li>group 指定用户组</li> <li>mtime/atime/ctime 指定修改/访问/创建时间，单位为天，+表示几天前，-表示几天内</li> <li>amin/mmin/cmin 功能同上，单位为分钟</li></ul></li> <li>说明:
+<ul><li>如果要寻找一个普通文件，使用find会是一个不错的主意。</li> <li>由于find在寻找数据的时候相当的耗资源，所以没有事情不使用find</li></ul></li></ul></li></ul> <h3 id="_6-6-指令与文件的搜寻"><a href="#_6-6-指令与文件的搜寻" aria-hidden="true" class="header-anchor">#</a> 6.6 指令与文件的搜寻</h3> <ul><li><p>whereis</p> <ul><li>作用: 只能作用于程序名的搜索</li> <li>格式: whereis 命令</li> <li>实例: whereis grep</li> <li>结果:
+<ul><li><code>grep: /usr/bin/grep /usr/share/man/man1/grep.1.gz</code></li> <li>名称 / 二进制文件路径 / 帮助文档路径</li></ul></li></ul></li> <li><p>which</p> <ul><li>作用: 在$PATH变量指定的路径中，搜索某个系统命令的位置，并且返回第一个搜索结果。也就是说，使用which命令，就可以看到某个命令是否存在，以及执行的到底是一个命令</li> <li>格式: which 命令</li></ul></li> <li><p>PATH</p> <ul><li>说明: 环境变量</li> <li>打印: echo $PATH</li> <li>导出:
+<ul><li>方式一: 一次性的设置 <code>export PATH=$PATH:dir1[:dir2]</code></li> <li>方式二: 永久性的设置，所有用户有效，需要重启生效或使用source命令，将方式一的导出操作添加到文件<code>/etc/profile</code>的末尾</li> <li>方式三: 永久性的设置，只针对一个用户，需要重启生效或使用source命令，优先级高于2，将方式一导出操作添加到文件<code>~/.bashrc</code>的末尾</li></ul></li></ul></li></ul> <p>type ( 寻找可执行文件 )</p> <p>locate ( find files by name )</p> <p>updatedb ( update a database for mlocate )</p> <h3 id="_6-7-文件压缩解压"><a href="#_6-7-文件压缩解压" aria-hidden="true" class="header-anchor">#</a> 6.7 文件压缩解压</h3> <ul><li>gzip
+<ul><li>作用: 压缩文件，只能是单个文件，不能是多个，也不能是目录</li> <li>格式: gzip file</li> <li>说明: 执行命令会生成file.gz，删除原来的file</li> <li>选项: -d 等价于gunzip</li></ul></li> <li>gunzip
+<ul><li>作用: 解压使用gzip压缩生成的文件</li> <li>格式: gunzip file.gz</li> <li>说明: 解压file.gz文件，生成file，删除原来的file.gz</li></ul></li> <li>bzip2/bunzip2
+<ul><li>说明:
+<ul><li>用法与gzip/gunzip相同，只是多了个'-k'参数，压缩或解压后保留原文件</li> <li>使用bzip2压缩的文件后缀为bz2，而使用gzip压缩的文件后缀为gz</li></ul></li></ul></li> <li>tar
+<ul><li>说明:
+<ul><li>-c 压缩</li> <li>-x 解压</li> <li>-z 使用gzip</li> <li>-j 使用bzip2</li> <li>-f 指定处理文件</li> <li>-v 显示(压缩解压过程的)详细信息</li> <li>-C 指定解压后存放文件的目录</li></ul></li> <li>示例:
+<ul><li><code>tar -zcvf 123.tar.gz 1 2 3</code> 将目录1 2 3三个目录打包为123.tar.gz并保留原目录</li> <li><code>tar -zxvf 123.tar.gz [-C ./tmp]</code> 使用gzip将123.tar.gz解压[至./tmp目录]</li></ul></li></ul></li></ul> <h1 id="七-linux磁盘与文件系统"><a href="#七-linux磁盘与文件系统" aria-hidden="true" class="header-anchor">#</a> 七 Linux磁盘与文件系统</h1> <h3 id="_7-1-磁盘与目录的容量"><a href="#_7-1-磁盘与目录的容量" aria-hidden="true" class="header-anchor">#</a> 7.1 磁盘与目录的容量</h3> <ul><li>df: 列出文件系统的整体磁盘使用量</li> <li>du: 评估文件系统的磁盘使用量(常用在推估目录所占容量)</li></ul> <h3 id="_7-2-实体链接与符号链接：ln"><a href="#_7-2-实体链接与符号链接：ln" aria-hidden="true" class="header-anchor">#</a> 7.2 实体链接与符号链接：ln</h3> <ul><li>创建实体链接 <code>ln /etc/crontab .</code></li> <li>创建符号链接 <code>ln -s &lt;源文件/文件夹&gt; &lt;目标文件/文件夹&gt;</code></li></ul> <h2 id="八-文件与文件系统的压缩，打包与备份"><a href="#八-文件与文件系统的压缩，打包与备份" aria-hidden="true" class="header-anchor">#</a> 八 文件与文件系统的压缩，打包与备份</h2> <h2 id="九-shell与shell-scripts"><a href="#九-shell与shell-scripts" aria-hidden="true" class="header-anchor">#</a> 九 Shell与Shell scripts</h2> <h2 id="十-bash"><a href="#十-bash" aria-hidden="true" class="header-anchor">#</a> 十 Bash</h2> <h2 id="十一-正则与文件格式化处理"><a href="#十一-正则与文件格式化处理" aria-hidden="true" class="header-anchor">#</a> 十一 正则与文件格式化处理</h2> <h2 id="十二-shell-scripts"><a href="#十二-shell-scripts" aria-hidden="true" class="header-anchor">#</a> 十二 Shell Scripts</h2> <h2 id="十三-linux使用者管理"><a href="#十三-linux使用者管理" aria-hidden="true" class="header-anchor">#</a> 十三 Linux使用者管理</h2> <h2 id="十四-磁盘配额-quota-与进阶文件系统管理"><a href="#十四-磁盘配额-quota-与进阶文件系统管理" aria-hidden="true" class="header-anchor">#</a> 十四 磁盘配额(Quota)与进阶文件系统管理</h2> <h2 id="十五-例行性工作调度"><a href="#十五-例行性工作调度" aria-hidden="true" class="header-anchor">#</a> 十五 例行性工作调度</h2> <h2 id="十六-程序管理与selinux初探"><a href="#十六-程序管理与selinux初探" aria-hidden="true" class="header-anchor">#</a> 十六 程序管理与SELinux初探</h2> <h2 id="十七-linux系统管理员"><a href="#十七-linux系统管理员" aria-hidden="true" class="header-anchor">#</a> 十七 Linux系统管理员</h2> <h2 id="二一-软件安装：源代码与tarball"><a href="#二一-软件安装：源代码与tarball" aria-hidden="true" class="header-anchor">#</a> 二一 软件安装：源代码与Tarball</h2> <h2 id="二二-软件安装-rpm-srpm与yum"><a href="#二二-软件安装-rpm-srpm与yum" aria-hidden="true" class="header-anchor">#</a> 二二 软件安装 RPM,SRPM与YUM</h2></div> <div class="page-edit"><!----> <!----></div> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/note/linux/php_server.html">
+          虚拟机linux安装php高性能服务器
+        </a>
+        →
+      </span></p></div> </div> <!----></div></div>
+    <script src="/assets/js/app.a9e3ac8e.js" defer></script><script src="/assets/js/29.8ebb75d6.js" defer></script>
+  </body>
+</html>
